@@ -1,7 +1,56 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\backend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:backend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\clasificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:clasificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\cola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:cola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\conjuntodedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:conjuntodedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\cvsparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:cvsparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\decisiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:decisiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\estrategia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:estrategia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\particionador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:particionador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\pregunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:pregunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\arbolbinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:arbolbinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\datasets\\preguntas.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:datasets\\preguntas.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +58,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Backend.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Backend.cs",
+              "RelativeDocumentMoniker": "Backend.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Backend.cs",
+              "RelativeToolTip": "Backend.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAywJ0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:41:14.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConjuntoDeDatos.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\ConjuntoDeDatos.cs",
+              "RelativeDocumentMoniker": "ConjuntoDeDatos.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\ConjuntoDeDatos.cs",
+              "RelativeToolTip": "ConjuntoDeDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:40:55.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CvsParser.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\CvsParser.cs",
+              "RelativeDocumentMoniker": "CvsParser.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\CvsParser.cs",
+              "RelativeToolTip": "CvsParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:40:48.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Particionador.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Particionador.cs",
+              "RelativeDocumentMoniker": "Particionador.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Particionador.cs",
+              "RelativeToolTip": "Particionador.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:40:34.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:37:56.134Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pregunta.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Pregunta.cs",
+              "RelativeDocumentMoniker": "Pregunta.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Pregunta.cs",
+              "RelativeToolTip": "Pregunta.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:40:14.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DecisionData.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\DecisionData.cs",
+              "RelativeDocumentMoniker": "DecisionData.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\DecisionData.cs",
+              "RelativeToolTip": "DecisionData.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:21:58.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cola.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Cola.cs",
+              "RelativeDocumentMoniker": "Cola.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Cola.cs",
+              "RelativeToolTip": "Cola.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:21:48.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "preguntas.csv",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\datasets\\preguntas.csv",
+              "RelativeDocumentMoniker": "datasets\\preguntas.csv",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\datasets\\preguntas.csv",
+              "RelativeToolTip": "datasets\\preguntas.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-05-28T03:19:30.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Clasificador.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Clasificador.cs",
+              "RelativeDocumentMoniker": "Clasificador.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Clasificador.cs",
+              "RelativeToolTip": "Clasificador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:18:31.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ArbolBinario.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\ArbolBinario.cs",
+              "RelativeDocumentMoniker": "ArbolBinario.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\ArbolBinario.cs",
+              "RelativeToolTip": "ArbolBinario.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:21:15.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Estrategia.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Estrategia.cs",
+              "RelativeDocumentMoniker": "Estrategia.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Estrategia.cs",
+              "RelativeToolTip": "Estrategia.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T02:58:05.328Z",
+              "EditorCaption": ""
             }
           ]
         },
