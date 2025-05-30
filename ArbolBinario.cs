@@ -65,6 +65,8 @@ namespace tp2
 
         }
 
+
+        //sobrecarga del metodo?
         //podriamos implementar un pre orden que en vez que imprima el dato lo regrese como una lista  preguntar al profesor.
         public void preorden(ArbolBinario<T> arbol)
         {
@@ -108,7 +110,6 @@ namespace tp2
             {
                 var (nodo, nivel) = cola.desencolar();
 
-                // Aseguramos que la lista tenga una sublista para el nivel actual
                 if (resultado.Count <= nivel)
                     resultado.Add(new List<T>());
 
