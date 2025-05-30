@@ -10,12 +10,11 @@ namespace tpfinal
 	class Estrategia
 	{
 
-		public String Consulta1(ArbolBinario<DecisionData> arbol)
-		{
-            
+        public String Consulta1(ArbolBinario<DecisionData> arbol)
+        {
             HashSet<string> predicciones = new HashSet<string>();
 
-            void Recorrer(ArbolBinario<DecisionData> nodo)
+            void Preorden(ArbolBinario<DecisionData> nodo)
             {
                 if (nodo == null) return;
 
@@ -30,44 +29,80 @@ namespace tpfinal
                         }
                     }
                 }
-                else
-                {
-                    Recorrer(nodo.getHijoIzquierdo());
-                    Recorrer(nodo.getHijoDerecho());
-                }
+
+                if (nodo.getHijoIzquierdo() != null)
+                    Preorden(nodo.getHijoIzquierdo());
+                if (nodo.getHijoDerecho() != null)
+                    Preorden(nodo.getHijoDerecho());
             }
 
-            Recorrer(arbol);
+            Preorden(arbol);
 
             return "Posibles predicciones: " + string.Join(", ", predicciones);
         }
 
 
-		public String Consulta2(ArbolBinario<DecisionData> arbol)
-		{
+        public String Consulta2(ArbolBinario<DecisionData> arbol)
+        {
+            List<string> caminos = new List<string>();
 
-			return "Implementar";
-		}
+            void Preorden(ArbolBinario<DecisionData> nodo, List<string> caminoActual)
+            {
+                if (nodo == null) return;
+
+                var dato = nodo.getDatoRaiz();
+
+                if (!nodo.esHoja())
+                {
+                    if (dato.Question != null)
+                        caminoActual.Add(dato.Question.TextoParaUsuario());
+                }
+
+                if (nodo.esHoja())
+                {
+                    if (dato.Predictions != null)
+                    {
+                        foreach (var pred in dato.Predictions.Keys)
+                        {
+                            string camino = string.Join(" -> ", caminoActual);
+                            caminos.Add($"{camino} => Predicción: {pred}");
+                        }
+                    }
+                }
+                else
+                {
+                    if (nodo.getHijoIzquierdo() != null)
+                        Preorden(nodo.getHijoIzquierdo(), new List<string>(caminoActual));
+                    if (nodo.getHijoDerecho() != null)
+                        Preorden(nodo.getHijoDerecho(), new List<string>(caminoActual));
+                }
+            }
+
+            Preorden(arbol, new List<string>());
+
+            return string.Join(Environment.NewLine, caminos);
+        }
 
 
-		public String Consulta3(ArbolBinario<DecisionData> arbol)
+        public String Consulta3(ArbolBinario<DecisionData> arbol)
 		{
 			string result = "Implementar";
 			return result;
 		}
 
-		public ArbolBinario<DecisionData> CrearArbol(Clasificador clasificador)
-		{
+        public ArbolBinario<DecisionData> CrearArbol(Clasificador clasificador)
+        {
+           
             if (clasificador.crearHoja())
             {
-               
                 var predicciones = clasificador.obtenerDatoHoja();
+                //TODO Delete Depuración:
+                Console.WriteLine("Creando hoja con predicciones: " + string.Join(", ", predicciones.Keys));
                 var hoja = new DecisionData(predicciones);
                 return new ArbolBinario<DecisionData>(hoja);
             }
             else
             {
-                
                 var pregunta = clasificador.obtenerPregunta();
                 var nodo = new DecisionData(pregunta);
 
@@ -82,5 +117,5 @@ namespace tpfinal
                 return arbol;
             }
         }
-	}
+    }
 }

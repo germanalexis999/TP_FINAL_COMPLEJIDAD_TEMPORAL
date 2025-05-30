@@ -22,7 +22,6 @@ namespace tpfinal
 
         public static void initilize ()
 		{
-
 			datasetEntrenamiento = new ConjuntoDeDatos();
 
 			arbol = Backend.crear_arbol(datasetEntrenamiento);
@@ -33,7 +32,6 @@ namespace tpfinal
 			pregunta_seleccionada = rnd.Next(1, datasetEntrenamiento.cantidadFilas());
 
 			nombre_seleccionado = datasetEntrenamiento.obtenerEtiquetaFila(pregunta_seleccionada);
-
 
 			HashSet<string> set = new HashSet<string>();
 			IList<IList<string>> rows = datasetEntrenamiento.Filas;
