@@ -98,23 +98,29 @@ namespace tp2
             Console.WriteLine(this.dato);
         }
 
-        public void recorridoPorNiveles()
+        public List<List<T>> recorridoPorNiveles()
         {
-            Cola<ArbolBinario<T>> cola = new Cola<ArbolBinario<T>>();
-            cola.encolar(this);
+            var resultado = new List<List<T>>();
+            Cola<(ArbolBinario<T> nodo, int nivel)> cola = new Cola<(ArbolBinario<T>, int)>();
+            cola.encolar((this, 0));
+
             while (!cola.esVacia())
             {
-                ArbolBinario<T> nodo = cola.desencolar();
-                Console.WriteLine(nodo.getDatoRaiz());
+                var (nodo, nivel) = cola.desencolar();
+
+                // Aseguramos que la lista tenga una sublista para el nivel actual
+                if (resultado.Count <= nivel)
+                    resultado.Add(new List<T>());
+
+                resultado[nivel].Add(nodo.getDatoRaiz());
+
                 if (nodo.getHijoIzquierdo() != null)
-                {
-                    cola.encolar(nodo.getHijoIzquierdo());
-                }
+                    cola.encolar((nodo.getHijoIzquierdo(), nivel + 1));
                 if (nodo.getHijoDerecho() != null)
-                {
-                    cola.encolar(nodo.getHijoDerecho());
-                }
+                    cola.encolar((nodo.getHijoDerecho(), nivel + 1));
             }
+
+            return resultado;
         }
 
         public int contarHojas()

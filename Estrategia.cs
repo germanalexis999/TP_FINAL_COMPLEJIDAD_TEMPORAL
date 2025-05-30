@@ -85,10 +85,21 @@ namespace tpfinal
 
 
         public String Consulta3(ArbolBinario<DecisionData> arbol)
-		{
-			string result = "Implementar";
-			return result;
-		}
+        {
+            if (arbol == null) return "Árbol vacío.";
+
+            var niveles = arbol.recorridoPorNiveles();
+            List<string> resultado = new List<string>();
+
+            for (int i = 0; i < niveles.Count; i++)
+            {
+                // Usamos ToString() para mostrar el dato de cada nodo
+                var datosNivel = niveles[i].ConvertAll(d => d.ToString());
+                resultado.Add($"Nivel {i}: {string.Join(" | ", datosNivel)}");
+            }
+
+            return string.Join(Environment.NewLine, resultado);
+        }
 
         public ArbolBinario<DecisionData> CrearArbol(Clasificador clasificador)
         {

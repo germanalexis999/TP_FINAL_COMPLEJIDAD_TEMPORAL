@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WiW")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc21930740d4f1c00b5925a88a6db07a15a22960")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02c40c57a597804305a27968dba7bd1b6cf32dfe")]
 [assembly: System.Reflection.AssemblyProductAttribute("WiW")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WiW")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
