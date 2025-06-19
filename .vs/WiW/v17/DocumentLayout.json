@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\estrategia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:estrategia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\arbolbinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:arbolbinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\estrategia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|solutionrelative:estrategia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF522874-2171-46F4-ABB3-51DC73FE94AA}|WiW.csproj|c:\\users\\germa\\desktop\\tp_final_complegidad\\tp\\tp_final_complejidad_temporal\\backend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,18 +38,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Backend.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Backend.cs",
-              "RelativeDocumentMoniker": "Backend.cs",
-              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Backend.cs",
-              "RelativeToolTip": "Backend.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAWwG0AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:20:29.167Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "DecisionData.cs",
               "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\DecisionData.cs",
@@ -62,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -70,33 +58,43 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T03:37:56.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T03:37:56.134Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Estrategia.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Estrategia.cs",
-              "RelativeDocumentMoniker": "Estrategia.cs",
-              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Estrategia.cs",
-              "RelativeToolTip": "Estrategia.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T02:58:05.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ArbolBinario.cs",
               "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\ArbolBinario.cs",
               "RelativeDocumentMoniker": "ArbolBinario.cs",
               "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\ArbolBinario.cs",
               "RelativeToolTip": "ArbolBinario.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAADwv0cAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswEcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T03:21:15.314Z",
+              "WhenOpened": "2025-05-28T03:21:15.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Backend.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Backend.cs",
+              "RelativeDocumentMoniker": "Backend.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Backend.cs",
+              "RelativeToolTip": "Backend.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAWwG0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T00:20:29.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Estrategia.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Estrategia.cs",
+              "RelativeDocumentMoniker": "Estrategia.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TP_FINAL_COMPLEGIDAD\\TP\\TP_FINAL_COMPLEJIDAD_TEMPORAL\\Estrategia.cs",
+              "RelativeToolTip": "Estrategia.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAA9wGUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T02:58:05.328Z",
               "EditorCaption": ""
             }
           ]

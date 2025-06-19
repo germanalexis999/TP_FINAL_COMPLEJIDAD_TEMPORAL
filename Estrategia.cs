@@ -93,7 +93,7 @@ namespace tpfinal
 
             for (int i = 0; i < niveles.Count; i++)
             {
-                // Usamos ToString() para mostrar el dato de cada nodo
+                
                 var datosNivel = niveles[i].ConvertAll(d => d.ToString());
                 resultado.Add($"Nivel {i}: {string.Join(" | ", datosNivel)}");
             }
