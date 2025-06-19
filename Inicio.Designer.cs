@@ -216,5 +216,20 @@ namespace WiW
         private PictureBox pictureBox2;
         private TextBox pathDataSet;
         private Label label1;
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            using (FolderBrowserDialog fch = new FolderBrowserDialog())
+            {
+                fch.Description = "Selecciona la carpeta que contiene el dataset";
+                if (fch.ShowDialog() == DialogResult.OK)
+                {
+                    pathDataSet.Text = fch.SelectedPath;
+                    Utils.set_patron(fch.SelectedPath);
+                }
+            }
+        }
+
+       
     }
 }
