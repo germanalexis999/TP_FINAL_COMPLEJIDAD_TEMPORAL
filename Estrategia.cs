@@ -107,7 +107,7 @@ namespace tpfinal
             if (clasificador.crearHoja())
             {
                 var predicciones = clasificador.obtenerDatoHoja();
-                //TODO Delete Depuración:
+                
                 Console.WriteLine("Creando hoja con predicciones: " + string.Join(", ", predicciones.Keys));
                 var hoja = new DecisionData(predicciones);
                 return new ArbolBinario<DecisionData>(hoja);
