@@ -14,71 +14,55 @@ namespace tpfinal
         {
             HashSet<string> predicciones = new HashSet<string>();
 
-            void Preorden(ArbolBinario<DecisionData> nodo)
+            // Usamos el preorden para obtener todos los nodos
+            var nodos = arbol.preorden();
+            foreach (var dato in nodos)
             {
-                if (nodo == null) return;
-
-                if (nodo.esHoja())
+                if (dato.Predictions != null)
                 {
-                    var hojaPred = nodo.getDatoRaiz().Predictions;
-                    if (hojaPred != null)
+                    foreach (var clave in dato.Predictions.Keys)
                     {
-                        foreach (var clave in hojaPred.Keys)
-                        {
-                            predicciones.Add(clave);
-                        }
+                        predicciones.Add(clave);
                     }
                 }
-
-                if (nodo.getHijoIzquierdo() != null)
-                    Preorden(nodo.getHijoIzquierdo());
-                if (nodo.getHijoDerecho() != null)
-                    Preorden(nodo.getHijoDerecho());
             }
-
-            Preorden(arbol);
 
             return "Posibles predicciones: " + string.Join(", ", predicciones);
         }
-
 
         public String Consulta2(ArbolBinario<DecisionData> arbol)
         {
             List<string> caminos = new List<string>();
 
-            void Preorden(ArbolBinario<DecisionData> nodo, List<string> caminoActual)
+            void BuscarCaminos(ArbolBinario<DecisionData> nodo, List<string> caminoActual)
             {
                 if (nodo == null) return;
 
                 var dato = nodo.getDatoRaiz();
 
-                if (!nodo.esHoja())
-                {
-                    if (dato.Question != null)
-                        caminoActual.Add(dato.Question.TextoParaUsuario());
-                }
+                if (!nodo.esHoja() && dato.Question != null)
+                    caminoActual.Add(dato.Question.TextoParaUsuario());
 
-                if (nodo.esHoja())
+                if (nodo.esHoja() && dato.Predictions != null)
                 {
-                    if (dato.Predictions != null)
+                    foreach (var pred in dato.Predictions.Keys)
                     {
-                        foreach (var pred in dato.Predictions.Keys)
-                        {
-                            string camino = string.Join(" -> ", caminoActual);
-                            caminos.Add($"{camino} => Predicción: {pred}");
-                        }
+                        string camino = string.Join(" -> ", caminoActual);
+                        caminos.Add($"{camino} => Predicción: {pred}");
                     }
                 }
                 else
                 {
                     if (nodo.getHijoIzquierdo() != null)
-                        Preorden(nodo.getHijoIzquierdo(), new List<string>(caminoActual));
+                        BuscarCaminos(nodo.getHijoIzquierdo(), new List<string>(caminoActual));
                     if (nodo.getHijoDerecho() != null)
-                        Preorden(nodo.getHijoDerecho(), new List<string>(caminoActual));
+                        BuscarCaminos(nodo.getHijoDerecho(), new List<string>(caminoActual));
                 }
             }
 
-            Preorden(arbol, new List<string>());
+            // Usamos preorden para recorrer todos los nodos, pero la lógica de caminos requiere mantener el camino actual,
+            // por lo que la recursión personalizada se mantiene.
+            BuscarCaminos(arbol, new List<string>());
 
             return string.Join(Environment.NewLine, caminos);
         }

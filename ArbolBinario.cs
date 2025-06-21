@@ -1,55 +1,62 @@
 ﻿using System;
+using System.Collections.Generic;
 using tp1;
 
 namespace tp2
 {
-	public class ArbolBinario<T>
-	{
-		
-		private T dato;
-		private ArbolBinario<T> hijoIzquierdo;
-		private ArbolBinario<T> hijoDerecho;
-	
-		
-		public ArbolBinario(T dato) {
-			this.dato = dato;
-		}
-	
-		public T getDatoRaiz() {
-			return this.dato;
-		}
-	
-		public ArbolBinario<T> getHijoIzquierdo() {
-			return this.hijoIzquierdo;
-		}
-	
-		public ArbolBinario<T> getHijoDerecho() {
-			return this.hijoDerecho;
-		}
-	
-		public void agregarHijoIzquierdo(ArbolBinario<T> hijo) {
-			this.hijoIzquierdo=hijo;
-		}
-	
-		public void agregarHijoDerecho(ArbolBinario<T> hijo) {
-			this.hijoDerecho=hijo;
-		}
-	
-		public void eliminarHijoIzquierdo() {
-			this.hijoIzquierdo=null;
-		}
-	
-		public void eliminarHijoDerecho() {
-			this.hijoDerecho=null;
-		}
-	
-		public bool esHoja() {
-			return this.hijoIzquierdo==null && this.hijoDerecho==null;
-		}
+    public class ArbolBinario<T>
+    {
+        private T dato;
+        private ArbolBinario<T> hijoIzquierdo;
+        private ArbolBinario<T> hijoDerecho;
+
+        public ArbolBinario(T dato)
+        {
+            this.dato = dato;
+        }
+
+        public T getDatoRaiz()
+        {
+            return this.dato;
+        }
+
+        public ArbolBinario<T> getHijoIzquierdo()
+        {
+            return this.hijoIzquierdo;
+        }
+
+        public ArbolBinario<T> getHijoDerecho()
+        {
+            return this.hijoDerecho;
+        }
+
+        public void agregarHijoIzquierdo(ArbolBinario<T> hijo)
+        {
+            this.hijoIzquierdo = hijo;
+        }
+
+        public void agregarHijoDerecho(ArbolBinario<T> hijo)
+        {
+            this.hijoDerecho = hijo;
+        }
+
+        public void eliminarHijoIzquierdo()
+        {
+            this.hijoIzquierdo = null;
+        }
+
+        public void eliminarHijoDerecho()
+        {
+            this.hijoDerecho = null;
+        }
+
+        public bool esHoja()
+        {
+            return this.hijoIzquierdo == null && this.hijoDerecho == null;
+        }
 
         public void inorden()
         {
-
             if (this.hijoIzquierdo != null)
             {
                 this.hijoIzquierdo.inorden();
@@ -61,34 +68,35 @@ namespace tp2
             {
                 this.hijoDerecho.inorden();
             }
-
-
         }
 
+        // Nueva sobrecarga: pública, retorna la lista
+        public List<T> preorden()
+        {
+            var lista = new List<T>();
+            preorden(this, lista);
+            return lista;
+        }
 
-        //sobrecarga del metodo?
-        //podriamos implementar un pre orden que en vez que imprima el dato lo regrese como una lista  preguntar al profesor.
-        public void preorden(ArbolBinario<T> arbol)
+        // Sobrecarga privada recursiva
+        private void preorden(ArbolBinario<T> arbol, List<T> lista)
         {
             if (arbol == null) return;
 
-            Console.WriteLine(arbol.getDatoRaiz());
+            lista.Add(arbol.getDatoRaiz());
 
             if (arbol.getHijoIzquierdo() != null)
             {
-                preorden(arbol.getHijoIzquierdo());
+                preorden(arbol.getHijoIzquierdo(), lista);
             }
             if (arbol.getHijoDerecho() != null)
             {
-                preorden(arbol.getHijoDerecho());
+                preorden(arbol.getHijoDerecho(), lista);
             }
         }
 
         public void postorden()
         {
-
-
-
             if (this.hijoIzquierdo != null)
             {
                 this.hijoIzquierdo.postorden();
@@ -126,8 +134,6 @@ namespace tp2
 
         public int contarHojas()
         {
-
-
             if (this.esHoja())
             {
                 return 1;
@@ -180,11 +186,7 @@ namespace tp2
                 {
                     cola.encolar((nodo.getHijoDerecho(), level + 1));
                 }
-
-
             }
-
         }
-    
     }
 }
