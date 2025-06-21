@@ -14,5 +14,8 @@
     <Compile Update="FormUser.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
